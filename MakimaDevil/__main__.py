@@ -67,15 +67,15 @@ HELP_STRINGS = """
 
 *ᴀɪ ᴄʜᴀᴛʙᴏᴛ*, *ᴀɴɪᴍᴇ*, *ᴍᴜsɪᴄ*, *ɴᴏᴛᴇs*, *ғɪʟᴛᴇʀs*, *ɴsғᴡ* *ᴀɴᴅ ᴍᴏʀᴇ!*
 
-• *ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ* `/` *ᴏʀ* `!`[.](https://telegra.ph/file/466ea7a1cb2fcadaa7be0.jpg)
-• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ:* [sᴜᴘᴘᴏʀᴛ](https://t.me/makima_devil_support) 
+• *ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ* `/` *ᴏʀ* `!`[.](https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg)
+• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ:* [sᴜᴘᴘᴏʀᴛ](https://t.me/RONIN_Fighters_Fd) 
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-MAKIMA_IMG = "https://telegra.ph/file/570598778da60177203b4.jpg"
-MAKIMASTART = "https://telegra.ph/file/ac997ad5f9e11cbe9512c.mp4"
-HELP_IMG = "https://telegra.ph/file/466ea7a1cb2fcadaa7be0.jpg"
+MAKIMA_IMG = "https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg"
+MAKIMASTART = "https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg"
+HELP_IMG = "https://te.legra.ph/file/1b44fb4780b4dd089b069.jpg"
 
 DONATE_STRING = """Heya, No Need"""
 IMPORTED = {}
@@ -197,7 +197,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="➕️ ᴀᴅᴅ ᴍᴀᴋɪᴍᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️",
+                            text="➕️ ᴀᴅᴅ Ronin ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
